@@ -40,12 +40,4 @@ def math(num1, operation, num2):
 if __name__ == '__main__':
     app.run()
 
-# This Flask application defines four routes:
-
-#     The index() view is mapped to the base URL ("/") and displays an <h1> element with the title of the application.
-#     The print_string() view is mapped to the URL pattern "/print/<input_string>" and takes a string as a parameter. It prints the string to the console and displays it in the web browser.
-#     The count() view is mapped to the URL pattern "/count/<num>" and takes an integer as a parameter. It generates a string with numbers from 0 to the specified number and displays them on separate lines in the browser.
-#     The math() view is mapped to the URL pattern "/math/<num1><operation><num2>" and takes three parameters: num1 (float), operation (string), and num2 (float). It performs the appropriate mathematical operation on the two numbers and displays the result in the browser.
-
-# To run this Flask application, save it in a file (e.g., app.py) and execute python app.py in the terminal. The server will start, and you can access the different views by visiting the corresponding URLs in your web browser.
 
