@@ -33,7 +33,8 @@ def math(num1, operation, num2):
         result = num1 % num2
 
     if result is not None:
-        return f'Result of {num1} {operation} {num2} is: {result}'
+        return f'<p>Result of {num1} {operation} {num2} is: {result}</p>'
+
     else:
         return 'Invalid operation'
 
